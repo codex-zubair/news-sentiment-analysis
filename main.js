@@ -1,14 +1,9 @@
 // Api Calling For news sentiment check.
-function lookAPI(url) {
-    fetch('https://newsapi.org/v2/everything?q=fc augsburg vs hertha berlin&from=2022-08-04&sortBy=publishedAt&apiKey=14b2e3e7662147e9a2564a6ed5717285')
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(err => console.log(err));
-
-}
 
 
 
+
+// *npm install sentiment*
 
 // !Sentiment Section Start...
 var Sentiment = require('sentiment');
